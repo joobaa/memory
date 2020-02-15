@@ -1,0 +1,44 @@
+/* Imports */
+
+@import url("board.css");
+@import url("cards.css");
+
+/* Styles */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+main {
+    width: 100vw;
+    height: 90vh;
+    padding: 10px 0px;
+    background-color: #e1f4f3;
+}
+#app-name{
+    color: darkturquoise;
+}
+a:link, a:visited{
+    color: lightgray;
+}
+a:hover {
+    text-decoration: none;
+    color: darkgray;
+}
+
+header, footer {
+    background-color: #333333;
+    color: lightgray;
+    width: 100vw;
+    height: 5vh;
+}
+
+#header-nav, #footer-nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;   
+}
+
+
+
