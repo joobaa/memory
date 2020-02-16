@@ -16,6 +16,7 @@ main {
     padding: 10px 0px;
     background-color: #e1f4f3;
 }
+
 #app-name{
     color: darkturquoise;
 }
@@ -37,7 +38,7 @@ header, footer {
 #header-nav, #footer-nav{
     display: flex;
     list-style-type: none;
-    justify-content: space-around;   
+    justify-content: space-evenly;   
 }
 
 

@@ -1,10 +1,6 @@
 .card{
     border: 1px black solid;
-    min-height: 150px;
-    max-height: 150px; 
-    min-width: 150px;
-    max-width: 150px;
-    margin: 3px;
-    background-image: url(https://via.placeholder.com/150);
-    background-repeat: no-repeat;
+    max-width: 152px;
+    max-height: 152px;
+    margin: 1px;
 }
